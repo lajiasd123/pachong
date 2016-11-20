@@ -9,4 +9,3 @@ opener = urllib2.build_opener(handler)
 response = opener.open("http://www.zhihu.com")
 cookie.save(ignore_discard=True, ignore_expires=True)
 
-postdata = urllib.urlencode({})
